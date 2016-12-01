@@ -10,7 +10,31 @@ p.toptext {
 	    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.fixed-nav-bar {
+nav.dot {
+	position: fixed;
+	top: 590; 
+	left: 1190;
+	z-index: 9999; 
+	width: 130px; 
+	height: 50px; 
+	text-decoration: none; 
+	background-color: #3b5998; 
+	opacity: 0.2;
+}
+
+nav.dot:hover {
+	position: fixed;
+	top: 590; 
+	left: 1190;
+	z-index: 9999; 
+	width: 130px; 
+	height: 50px; 
+	text-decoration: none; 
+	background-color: #3b5998; 
+	opacity: 1;
+}
+
+.fixedbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -66,16 +90,14 @@ p.toptext {
 	}
 
 	li a:hover {
-	    background-color: rgb(234, 254, 252);
+	    background-color: #d7fcfe;
 	    border-color: #ffffff;
 	}
 	</style>
 
 	<body bgcolor="#dfe3ee">
 
-
-
-<nav class="fixed-nav-bar">
+<nav class="fixedbar">
  <a href="#" style="text-decoration: none;"><p class="toptext"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Braghis Dan Blog</p></a>
 
   <ul style="position: absolute; top: 0px; left: 800px; border-color: transparent;  list-style-type: none; margin: 0; padding: 0;">
@@ -112,11 +134,30 @@ p.toptext {
 	      <img src="profile.jpg" border="5" style="position: absolute; top: 223px; left: 20px;"/>
 	    </div>
 	    </th>
+	    <th>
+	    	<table style="width: 22%; border-style: solid; border-width: 1px; border-radius: 2px; height: 80%; background: #ffffff; border-color: #d4d4d6;  position: absolute; top: 60px; left: 965px;">
+  			<tr>
+    			<th>ydgewyf</th>
+    			<th>thf</th> 
+    			<th>213fger1234</th>
+  			</tr>
+  			<tr>
+   				<td>eroghregb</td>
+    			<td>rhgrthtyh</td> 
+    			<td>14324</td>
+ 			</tr>
+  			<tr>
+    			<td>567688</td>
+    			<td>dsgafdg</td> 
+    			<td>[;][l</td>
+  			</tr>
+			</table>
+	    </th>
 	   </tr>
 	</table>
 
-	<nav style="position: fixed; top: 590; left: 1190; z-index: 9999; width: 130px; height: 50px; text-decoration: none; background-color: #0759fc;">
-		<a href="#" style="text-decoration: none;  text-align: center; "><p style="font-size: 15; color: white; padding: 
+	<nav class="dot">
+		<a href="#" style="text-decoration: none;  text-align: center; "><p style="font-size: 16; color: white; padding: 
 			0px 0px; text-decoration: none;">Go To Top</p></a>
 	</nav>
 
