@@ -7,6 +7,7 @@ $subject = $_POST['subject'];
 $to = 'danbraghis@yahoo.com';
 $message = 'FROM: '.$name.' Email: '.$email.'Message: '.$message;
 $headers = 'From: yourname@domain.com' . "\r\n";
+$subject = 'Landing subscription';
  
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($to, $subject, $message, $headers); //This method sends the mail.
