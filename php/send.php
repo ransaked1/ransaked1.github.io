@@ -1,4 +1,5 @@
-<?php 
+<?php
+die("test");
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
