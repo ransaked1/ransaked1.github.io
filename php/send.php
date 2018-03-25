@@ -6,7 +6,7 @@ $subject = $_POST['subject'];
 
 $to = 'youremail@gmail.com';
 $message = 'FROM: '.$name.' Email: '.$email.'Message: '.$message;
-$headers = 'From: youremail@domain.com' . "\r\n";
+$headers = 'From: danbraghis@yahoo.com' . "\r\n";
  
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($to, $subject, $message, $headers); //This method sends the mail.
