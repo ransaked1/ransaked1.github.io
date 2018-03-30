@@ -1,8 +1,8 @@
-<?php 
+<?php
+die("test");
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$subject = $_POST['subject'];
 
 $to = 'danbraghis@yahoo.com';
 $message = 'FROM: '.$name.' Email: '.$email.'Message: '.$message;
