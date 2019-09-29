@@ -1,2 +1,1 @@
-# gh-pages
-Vave landing page!
+Vave landing page concept!
